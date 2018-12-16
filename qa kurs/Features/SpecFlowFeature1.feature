@@ -33,3 +33,4 @@ Scenario: User can create an account
 	 And increases quantity to 2
 	 When user clicks on add to cart button
 	 Then product is added to cart
+	 And test
