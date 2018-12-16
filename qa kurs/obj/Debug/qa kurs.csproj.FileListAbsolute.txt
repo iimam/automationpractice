@@ -1,0 +1,18 @@
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\obj\Debug\qa kurs.csprojResolveAssemblyReference.cache
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\qa kurs.dll.config
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\qa kurs.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\qa kurs.pdb
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\nunit.framework.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\SeleniumExtras.WaitHelpers.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\System.ValueTuple.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\TechTalk.SpecFlow.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\WebDriver.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\WebDriver.Support.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\Newtonsoft.Json.xml
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\nunit.framework.pdb
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\nunit.framework.xml
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\WebDriver.xml
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\bin\Debug\WebDriver.Support.xml
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\obj\Debug\qa kurs.dll
+c:\Users\Korisnik\Documents\Visual Studio 2015\Projects\qa kurs\qa kurs\obj\Debug\qa kurs.pdb
