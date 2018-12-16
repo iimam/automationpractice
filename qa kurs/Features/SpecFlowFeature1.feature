@@ -25,3 +25,11 @@ Scenario: User can create an account
 		When sbumits the sign up form
 		Then user will be logged in 
 		And User's full name will be displayed
+
+
+	Scenario: User can add product to cart
+	 Given user opens "dresses" section
+	 And opens first product from the list
+	 And increases quantity to 2
+	 When user clicks on add to cart button
+	 Then product is added to cart
