@@ -88,12 +88,17 @@
     <Compile Include="Helpers\Utilities.cs" />
     <Compile Include="Pages\AuthenticationPage.cs" />
     <Compile Include="Pages\Base.cs" />
+    <Compile Include="Pages\CartOverlayPage.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\MyAccountPage.cs" />
     <Compile Include="Pages\MyWishlistPage.cs" />
+    <Compile Include="Pages\PDPPage.cs" />
+    <Compile Include="Pages\PLPPage.cs" />
     <Compile Include="Pages\SignUpPage.cs" />
+    <Compile Include="Pages\SummeryPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\MyAccountSteps.cs" />
+    <Compile Include="Steps\PDPSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

@@ -65,47 +65,24 @@ namespace qa_kurs.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void AddTwoNumbers()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
-                        "mytag"});
-#line 7
-this.ScenarioSetup(scenarioInfo);
-#line 8
- testRunner.Given("I have entered 50 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.And("I have entered 70 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
- testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 11
- testRunner.Then("the result should be 120 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("User can add product to cart")]
         [NUnit.Framework.CategoryAttribute("Cart")]
         public virtual void UserCanAddProductToCart()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("User can add product to cart", new string[] {
                         "Cart"});
-#line 14
+#line 8
  this.ScenarioSetup(scenarioInfo);
-#line 15
-  testRunner.Given("user opens \"dresses\" section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 16
+#line 9
+  testRunner.Given("user opens dresses section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
   testRunner.And("opens first product from the list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 17
+#line 11
   testRunner.And("increases quantity to 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 18
+#line 12
   testRunner.When("user clicks on add to cart button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 19
-  testRunner.Then("product is added to cart", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 20
-  testRunner.And("test milica", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 13
+    testRunner.Then("product is added to cart", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

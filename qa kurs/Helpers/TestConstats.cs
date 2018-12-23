@@ -20,5 +20,11 @@ namespace qa_kurs.Helpers
         public const string AddressAlias = "QA kurs";
         public const string State = "New York";
         public const string FullName = "";
+
+        public static string ProductName = "";
+        public static string Quantity = "qty";
+
+
+
     }
 }

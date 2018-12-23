@@ -34,9 +34,15 @@ namespace qa_kurs.Helpers
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(15));
             return wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(selector)).Displayed;
         }
+
         public string GenerateRandomMail()
         {
             return string.Format("email{0}@mailinator.com", RandomName.Next(100000, 1000000));
+        }
+
+        internal void EnterTxtInElement(By quantity, object qty)
+        {
+            throw new NotImplementedException();
         }
 
         public void DropdownSelect(By select, string option)
@@ -54,6 +60,9 @@ namespace qa_kurs.Helpers
             return wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(textElement));
 
         }
-     
+     public string ReturnTextFromElement (By selector)
+        {
+            return driver.FindElement(selector).GetAttribute("textContent");
+        }
     }
 }
