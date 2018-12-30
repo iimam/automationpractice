@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using qa_kurs.Helpers;
 using qa_kurs.Pages;
 using System;
@@ -58,11 +59,13 @@ namespace qa_kurs.Steps
             Utilities ut = new Utilities(Driver);
             CartOverlayPage cop = new CartOverlayPage(Driver);
             ut.ClickOnElement(cop.ProceedToCheckout);
-
+            SummaryPage sp = new SummaryPage(Driver);
+            string productName = ScenarioContext.Current.Get<string>(TestConstats.ProductName);
+            Assert.AreEqual(ut.ReturnTextFromElement(sp.prdName), productName, "Expected product is not in the cart");
         }
 
 
-    }
+        }
 
 
 }

@@ -60,7 +60,7 @@ namespace qa_kurs.Helpers
             return wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(textElement));
 
         }
-     public string ReturnTextFromElement (By selector)
+     public string ReturnTextFromElement(By selector)
         {
             return driver.FindElement(selector).GetAttribute("textContent");
         }
